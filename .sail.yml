@@ -1,0 +1,13 @@
+tasks:
+  install:
+    image: znck/docker-pnpm:10-alpine
+    command:
+      - pnpm
+    args:
+      - install
+  gif:
+    image: znck/docker-pnpm:10-alpine
+    command:
+      - pnpm
+    args:
+      - start

@@ -1,0 +1,1 @@
+require('random-ascii-image-generator').generateImage()

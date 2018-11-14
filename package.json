@@ -1,0 +1,23 @@
+{
+  "name": "pnpm-sample",
+  "version": "1.0.0",
+  "description": "Sample showing how to use pnpm with Sail CI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sailci/pnpm-sample.git"
+  },
+  "author": "Chris Shepherd <chris@sail.ci>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sailci/pnpm-sample/issues"
+  },
+  "homepage": "https://github.com/sailci/pnpm-sample#readme",
+  "dependencies": {
+    "random-ascii-image-generator": "^1.0.1"
+  }
+}
